@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página AP3</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <header id="cabecalho">
+        <h1>Notícias Sobre Saúde</h1>
+    </header>
+    <body>
+        <ol id="lista-noticias">
+            <li><b>Inteligência artificial auxilia na triagem de 30 milhões de possíveis
+                medicamentos contra o SARS-CoV-2</b>
+            </li>
+            <li><b>Rinite alérgica atinge 1/4 da população brasileira, afirmam especialistas</b></li>
+            <li><b>Ministério da Saúde recua e volta a liberar vacinação de adolescentes contra
+                a Covid-19</b>
+            </li>
+            <li><b>Ministério da Economia libera R$ 19 milhões para Ipen voltar a produzir
+                remédios contra o câncer</b>
+            </li>
+            <li><b>Bahia está em alerta pela variante Delta e nova onda de Covid-19 não é
+                descartada</b>
+            </li>
+        </ol>
+        <hr>
+        <div class="container-noticias" align=center>
+           <h3><i>Números da Covid-19 no Brasil:</i></h3>
+           <table border="1" id="tabela-casos">
+               <tr>
+                   <th>Casos</th>
+                   <th>Mortes</th>
+                </tr>
+                <tr>
+                   <td>21.283.567</td>
+                   <td>592.316</td>
+                </tr> 
+            </table>
+        </div>
+        <div class="container-noticias2" align=center>
+            <h3><i>Números de vacinados no Brasil:</i></h3>
+            <table border="1" id="tabela-vacinados">
+                <tr>
+                   <th>Receberam ao menos uma dose</th>
+                   <th>Totalmente imunizados</th>
+                   <th>Total de doses aplicadas</th>
+                </tr>
+                <tr>
+                   <td align="center">143.056.255</td>
+                   <td align="center">83.397.254</td>
+                   <td align="center">226.453.509</td>
+                </tr>
+            </table>
+        </div>
+        <h3 align="center">Coloque seus dados e deixe seu feedback sobre o site abaixo. Muito Obrigado !</h3>  
+        <div class="container">
+            <form class="formulario">
+                <div>
+                    Nome:
+                    <input id="nome" type="text" placeholder="Informe seu nome"> 
+                </div>
+                <div>
+                    Email:
+                    <input id="email" type="text" placeholder="Informe seu e-mail">
+                </div>
+                <div>
+                    Nascimento:
+                    <input id="nascimento" type="date" placeholder="Informe sua data de nascimento">
+                </div>
+                <div>
+                    Feedback:
+                    <input id="feedback" type="text" placeholder="Ex: Ótimo, Bom, Mediano, Ruim, Péssimo">
+                </div>
+                <div>
+                    <button type="button" id="botaocadastrar" onclick="cadastrar()"> <span class="texto-botao">Cadastrar</span> </button>
+                    <button type="button" id="botaolimpar" onclick="limparFormulario()"> <span class="texto-botao2">Limpar</span> </button>
+                </div>
+
+                <hr>
+
+                <table id="dados">
+                    <thead>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Nascimento</th>
+                        <th>Idade</th>
+                        <th>Feedback</th>
+                    </thead>
+                    <tbody>
+                    </tbody> 
+                </table>
+            </form>          
+        </div>
+        <script src="js/controller.js"></script>
+        <script src="js/pessoa.js"></script>
+    </body>
+</html>

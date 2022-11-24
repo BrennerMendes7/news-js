@@ -1,0 +1,117 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    text-align: center;
+    background-color: gold;
+    font-style: italic;
+    border-radius: 15px;
+}
+
+#lista-noticias {
+    text-align: left;
+}
+
+li {
+    padding: 7px;
+    outline: auto;
+}
+
+.container-noticias {
+    margin-top: 35px;
+}
+
+.container-noticias2 {
+    margin-top: 35px;
+    margin-bottom: 85px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 70%;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    outline: none;
+}
+
+.formulario {
+    padding: 35px;
+}
+
+#botaocadastrar {
+    background-color: rgb(38, 182, 38);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    outline: none; 
+}
+
+.texto-botao {
+    color: rgba(230, 228, 228, 0.959);
+}
+
+#botaolimpar {
+    background-color: rgb(39, 157, 212);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 3px;
+    outline: none;
+}
+
+.texto-botao2 {
+    color: rgba(230, 228, 228, 0.959);
+}
+
+#dados {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+#dados th {
+    height: 50px;
+}
+
+#dados th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+#tabela-casos {
+    border: 3px solid gold;
+    border-collapse: collapse;
+}
+
+#tabela-casos th, td {
+    padding: 10px;
+}
+
+#tabela-vacinados {
+    border: 3px solid gold;
+    border-collapse: collapse;
+}
+
+#tabela-vacinados th, td {
+    padding: 10px;
+}
+
+hr {
+    margin: 30px auto;
+}
